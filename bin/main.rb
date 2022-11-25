@@ -20,6 +20,7 @@ builder.product.list_parts
 puts "\n\n"
 
 # Remember, the Builder pattern can be used without a Director class.
+# Custom builder
 puts 'Custom product: '
 builder.produce_part_a
 builder.produce_part_b
